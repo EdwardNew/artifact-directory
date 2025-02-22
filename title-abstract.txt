@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Demystifying Privacy: Building Tools for Clear and Accessible Data Security Practices
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+In an era where data privacy is a growing concern, but expressing that concern clearly and specifically seems to be a pain point for most, as reflected by the privacy paradox, efficiently understanding and categorizing user privacy preferences is crucial not only for researchers and developers but the users themselves as well. Traditional qualitative coding methods for privacy concerns can be time-consuming and inconsistent, making it difficult to extract meaningful insights from user responses. Our project explores novel ways to streamline and enhance qualitative coding by leveraging AI-driven generative surveys and structured response filtering. By dynamically adapting survey questions and refining response specificity, we aim to make privacy preference elicitation more efficient and scalable. This approach seeks to improve the accuracy and depth of qualitative coding while reducing manual effort, ultimately providing a more structured and systematic way to analyze user privacy concerns.

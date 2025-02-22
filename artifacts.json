@@ -1,6 +1,6 @@
 {
-    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
-    "project-repository": "https://github.com/DSC-Capstone/project-templates.git",
+    "this-repository": "https://github.com/EdwardNew/artifact-directory",
+    "project-repository": "https://github.com/DataSmithLab/PrIDE-web/tree/survey",
     "project-website-url": "https://afraenkel.github.io/capstone-malware-domain/",
     "project-website-code": "https://github.com/afraenkel/capstone-malware-domain.git"
 }

@@ -1,9 +1,7 @@
 # Capstone Project Webpage and Artifact Directory
 
-This repository is a template for turning in links/locations to your
-project artifacts. Instructions:
-
 [Link to github webpage](https://edwardnew.github.io/artifact-directory/)
+
 [Link to project source code](https://github.com/DataSmithLab/PrIDE-web/tree/survey/)
 
 `artifacts.json` file contains links to different components of our project

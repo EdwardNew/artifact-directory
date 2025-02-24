@@ -1,8 +1,15 @@
 ---
 title: "Demystifying Privacy: Building Tools for Clear and Accessible Data Security Practices"
+
+description: "By: Edward New, David Yonemura, Adalina Ma; Mentored by Haojian Jin"
 ---
 
-# Introduction
+### Project Link:
+
+-   [demo]()
+-   [github](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+
+## Introduction
 
 In today’s rapidly evolving digital landscape, data privacy has become an increasingly critical concern. As organizations and service providers collect, process and share more personal data, users are becoming more aware of how their information is used and the potential risks involved. However, despite the growing importance of data privacy, there are significant challenges to ensure that privacy concerns are understood and addressed effectively. One of the main obstacles is the complexity of translating qualitative privacy preferences into actionable insights. Users express privacy concerns in nuanced and subjective ways that are often difficult to capture and analyze in a systematic manner. Moreover, users frequently struggle to articulate their privacy preferences clearly and specifically. A well-known issue is the privacy paradox, where individuals’ actions often contradict their stated privacy concerns. This paradox may stem from users’ inability to accurately express their privacy preferences, leading to the perceived gap between their words and actions.
 
@@ -27,22 +34,22 @@ This is a sample paragraph under Heading 2. You can add more details here.
 
 -   **Generative Survey Options:** We utilized the ChatGPT API to generate adaptive survey response options tailored to users' previous answers, enabling a more efficient and precise identification of their privacy preference profiles.
 
-### Results
+## Results
 
 The project resulted in the development of an integrated platform that combines the two traditional approaches to qualitative coding, resulting in a novel system that leverages the power of advanced large language models to dynamically generate context-specific survey response options for each question. The key outcomes include:
 
-1. #### Dynamic Survey Integration:
+1. ### Dynamic Survey Integration:
 
     - A survey system powered by the `survey-react-ui` package that adapts questions based on user inputs.
     - Metadata-enriched survey nodes for tracking and documenting data interactions.
     - Features for exporting survey results and linking responses to backend storage for transparency.
     - Automation of survey creation steps, eliminating reliance on external tools like Qualtrics by using our own programs to dynamically generate and manage surveys.
 
-2. #### Deliverables:
+2. ### Deliverables:
 
     - **Generative Survey Platform:** Overhauled survey generation, distribution, and collection system allowing for future development of dynamic surveys.
 
-### Discussion
+## Discussion
 
 The ideas and frameworks explored in this project represents a significant step forward in addressing the challenges of understanding and categorizing user privacy preferences. By leveraging AI-driven generative surveys and structured response filtering, we have created a system that not only streamlines the qualitative coding process but also enhances the specificity and accuracy of the insights derived from user responses. This approach directly tackles the limitations of traditional methods, such as manual coding of free text responses and static surveys, which are often time-consuming, inconsistent, and fail to capture the nuanced nature of privacy concerns.
 
@@ -50,7 +57,7 @@ One of the key achievements of this project is the ability to bridge the gap bet
 
 Despite these advancements, further research is still needed to more rigorously benchmark the effectiveness of this novel approach against established baselines. Specifically, future work should compare the performance of our system to a few key alternatives: (1) the traditional method of manual labeling of free-text responses, (2) a modified approach where a Large Language Model (LLM) is used to directly label free-text responses, and (3) the traditional exhaustive survey. Such comparisons would provide valuable insights into the relative strengths and limitations of each method, particularly in terms of accuracy, efficiency, scalability, and the quality of data collected.
 
-### Conclusion
+## Conclusion
 
 This project has laid the groundwork for a novel approach to qualitative coding, focusing on the specific challenge of capturing and analyzing user privacy preferences. By combining AI-driven generative surveys with structured response filtering, the system offers a scalable and efficient alternative to traditional methods, which are often labor-intensive and or lead to vague, general answers. The dynamic generative survey system, powered by survey-react-ui and ChatGPT, demonstrates the potential to improve the specificity and accuracy of qualitative coding while reducing manual effort.
 
@@ -58,13 +65,7 @@ However, as an exploratory effort, this project is admittedly limited in its sco
 
 Ultimately, this project highlights the potential of AI-driven tools to transform qualitative coding processes, particularly in the context of privacy research. By continuing to build on this foundation, future work can contribute to the development of more effective privacy policies and tools, fostering greater trust and alignment between users and organizations in the digital age.
 
-###### Heading 6
+## References
 
-This is a sample paragraph under Heading 6. The smallest heading level.
-
----
-
-## Links and Images
-
--   [Google](https://www.google.com)
--   ![Alt text for image](/path/to/image.jpg)
+-   [link1]()
+-   [link2]()

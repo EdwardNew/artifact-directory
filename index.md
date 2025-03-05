@@ -6,8 +6,10 @@ description: "By: Edward New, David Yonemura, Adalina Ma; Mentored by Haojian Ji
 
 ### Project Link:
 
--   [demo]()
--   [github](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+-   [Github](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+-   [Report](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+-   [Poster](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+-   [About](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
 
 ## Introduction
 
@@ -73,5 +75,5 @@ Ultimately, this project highlights the potential of AI-driven tools to transfor
 
 ## References
 
--   [link1]()
+-   [Lean Privacy Review](https://www.haojianj.in/resource/pdf/LeanPrivacyReview.pdf)
 -   [link2]()

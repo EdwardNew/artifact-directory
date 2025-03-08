@@ -17,30 +17,40 @@ Qualitative coding or the assigning of labels/codes to qualitative data is a dif
 - An unwiedly amount of answers to cover for all possible privacy preferences.
 - A failure to capture the nuance and subjective nature of privacy preferences.
 - Participant survey fatigue caused by an overwhelming number of responses required for each question.  
+
 For the second method involving free-text responses, this method runs into issues such as: 
 - Participants stuggling to articulate their own privacy preferences. 
 - Participants writing what they perceive to be their privacy preferences, even if it doesn't match their online behavior. 
 - Participant survey fatigue from having to write out a thoughtful and informative response for each question. 
 - Time-consuming, expensive, and error-prone manual labeling of free-text by researchers or crowdworkers. 
 
-This project aims to explore novel ways to make the qualitative coding of user privacy preferences more efficient and specific, particularly through the use of large language models such as ChatGPT. By using LLMs to generate context-specific survey response options, we seek to combine the two traditional approaches to qualitative coding to obtain the benefits of both without their drawbacks. Our goal is to streamline the qualitative coding process, enhance the specificity of the results, and ultimately provide more accurate insights into what users truly care about when it comes to their privacy.
+This project aims to explore novel ways to make the qualitative coding of user privacy preferences more efficient and specific, particularly through the use of large language models such as ChatGPT. By using LLMs to generate context-specific survey response options, we seek to combine the two traditional approaches to qualitative coding to obtain the benefits of both without their respective drawbacks. Our goal is to streamline the qualitative coding process, enhance the specificity of the results, and ultimately provide more accurate insights into what users truly care about when it comes to their privacy.
 
 Through this work, we aim to bridge the gap between the qualitative nature of user privacy preferences and the quantitative analysis required for effective privacy policy implementation. By improving the efficiency and specificity of qualitative coding, we hope to empower organizations to better understand and address user privacy concerns, fostering a stronger sense of trust and alignment with users’ expectations. Additionally, this project has the potential to contribute to the broader field of privacy research, helping to shape more effective privacy policies and tools that are in line with the needs of today’s digital society. Beyond privacy, the techniques explored in this system can be generalized and applied to any domain requiring qualitative coding, offering valuable insights and a new approach to qualitative coding.
 
 ## Methods
 
-### Generative Choice Survey
+![Paradigms](/artifact-directory/assets/Paradigms.png)  
+  
+Our project explores four different paradigms of qualitative coding using LLMS.
+- A. Human Responses + Human Labeling
+    - Particpants provide open-ended responses and human coders manually analyze and label the data.
+    - This is the baseline for comparison on how well the other paradigms perform.
+- B. LLM Responses + Human Labeling
+    - An LLM generates responses to a privacy scenario and a human choses which option best matches their privacy preference. 
+- C. Human Responses + LLM Labeling
+    - Participants provide open-ended responses and an LLM labels the data.
+- D. LLM Responses + LLM Labeling
+    - An LLM generates responses to a prviacy scenario and another LLM (or the same one) categorizes and labels the responses.  
+  
+With these four paradigms, we generated an hypothesis of which paradigm would perform the best based on past research. 
 
-This is a sample paragraph under Heading 2. You can add more details here.
 
--   **Survey Component Integration:** Edward contributed significantly by integrating the ‘survey-react-ui‘ package, which forms the backbone of the survey generation functionality. This package provides an intuitive way to programmatically generate and customize surveys in React, a critical step in enabling interactive survey flows for users. This integration also involved adjusting the survey structure to support dynamic content, eventually allowing the survey to change based on user responses.
 
--   **Development of Survey Generation:** Once the new survey package had been successfully integrated, David worked on adapting the current survey data schema to the new survey structure of ‘survey-react-ui’, allowing us to generate a unique survey for each decoupled privacy diagram data path.
 
--   **Survey Page Routes and Export Functionality:** Edward, alongside David, implemented new dynamic routes to handle survey/data path-specific pages. We leveraged session cookies to uniquely identify each user session, allowing developers to send privacy surveys to users with one generalized link. This new direct survey deployment workflow for developers means developers can have immediate access to survey responses, completely eliminating the reliance on third-party systems such as Qualtrics for survey distribution and response collection.
--   **Database and Backend Enhancements:** We redesigned the database schema to support multi-session storage, enabling longitudinal analysis of user responses and improving the adaptability of future surveys.
 
--   **Generative Survey Options:** We utilized the ChatGPT API to generate adaptive survey response options tailored to users' previous answers, enabling a more efficient and precise identification of their privacy preference profiles.
+
+
 
 ## Results
 

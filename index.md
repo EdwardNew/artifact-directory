@@ -13,13 +13,13 @@ description: "By: Edward New, David Yonemura, Adalina Ma; Mentored by Haojian Ji
 
 ## Introduction
 
-Qualitative coding or the assigning of labels/codes to qualitative data is a difficult and expensive process in all social science fields; however, it is particularly difficult in our domain of interest: data privacy. This is because the two main traditional methods of qualitative coding in this field involve either a multiple choice of pre-defined answers written by the researchers or free-text response by partcipants. The first method runs into the issues of: 
-- An unwiedly amount of answers to cover for all possible privacy preferences.
+Qualitative coding, or the assigning of labels/codes to qualitative data is a difficult and expensive process in all social science fields; however, it is particularly difficult in our domain of interest: data privacy. This is because the two main traditional methods of qualitative coding in this field involve either a multiple choice of pre-defined answers written by the researchers or a free-text response by participants. The first method runs into the issues of: 
+- An unwieldy amount of answers to cover all possible privacy preferences.
 - A failure to capture the nuance and subjective nature of privacy preferences.
 - Participant survey fatigue caused by an overwhelming number of responses required for each question.  
 
 For the second method involving free-text responses, this method runs into issues such as: 
-- Participants stuggling to articulate their own privacy preferences. 
+- Participants struggling to articulate their own privacy preferences. 
 - Participants writing what they perceive to be their privacy preferences, even if it doesn't match their online behavior. 
 - Participant survey fatigue from having to write out a thoughtful and informative response for each question. 
 - Time-consuming, expensive, and error-prone manual labeling of free-text by researchers or crowdworkers. 

@@ -78,7 +78,7 @@ To compare these paradigms, we chose survey response time and quality of respons
 ### Hypothesis
 ![Paradigms](/artifact-directory/docs/assets/Hypothesis.png)  
 
-We hypothesize that LLMs excel at generating survey responses. However, LLMs fall short at figuring out the nuance and ambiguous nature of text, which is why human's are needed for labeling.
+We hypothesize that LLMs excel at generating survey responses. However, LLMs fall short at figuring out the nuance and ambiguous nature of text, which is why human's are needed for labeling. Thus we the LLM + Human paradigm will give us the best results.
 
 ### Exploration Details
 The overarching theme for the privacy scenarios given to the participants for this preliminary study will be about checkout-free retail stores or stores that allow customers to walk out with their products without having to directly pay in store. 
@@ -91,34 +91,31 @@ The overarching theme for the privacy scenarios given to the participants for th
 
 This approach involved us coding participants' free-response privacy concerns using the fourteen labels. While labeling was effective and accurate for our small sample size, this method required significant time from participants, averaging 14 minutes to answer three scenarios pertaining to the theme. Despite this, the responses provided detailed, scenario-specific reasoning, making them a high-quality baseline for comparing other paradigms.
 
-#### LLM Responses + LLM Labeling
+#### LLM Responses + Human Labeling
 
-In this paradigm, we used an LLM to generate privacy concerns and then label them using the same model. This approach significantly reduced response time, averaging 37 seconds for all scenarios. While the generated concerns were less personal and rooted in general beliefs, they were of reasonable quality. The labeling process was accurate and swift, with no notable omissions or mislabels. Overall, this paradigm demonstrated exceptional efficiency without compromising too much on quality.
+This approach involved a large language model (LLM) generating context-specific survey responses for participants to select from. Completing all three scenarios, including the labeling task of choosing the response aligning with personal beliefs, took approximately 5.5 minutes. While the generated responses were of good quality, they reflected common general beliefs rather than deeply personal reasoning, a limitation inherent to LLMs, which are trained on broad textual patterns rather than individualized thought processes.
 
 #### Human Responses + LLM Labeling
 
-This hybrid approach combines human input with automated labeling. Participants appreciated the authenticity of human responses but expressed concerns about the efficiency and consistency of the labeling process. While the LLM can provide quicker and more consistent labeling than manual coders, the lack of human oversight means there is still a risk of misinterpretation. Participant 3 voiced concerns about the ethical implications of profiling, while Participant 2 worried about how much personal data would need to be accessed for accurate labeling. This paradigm offers a balance between human nuance and AI efficiency, making it a strong candidate for scenarios where human input is vital, but scalability is still important.
+This approach integrates human free-response text with automated labeling by a large language model (LLM). Completing all three scenarios took an average of 14 minutes, reflecting the previous time of human generated responses. The quality of the responses was high, and the LLM performed well in labeling privacy concerns it had generated, with no notable mislabels or omissions. Additionally, the LLM's quick output significantly expedited the labeling process, enhancing efficiency.
 
-#### LLM Responses + Human Labeling
+#### LLM Responses + LLM Labeling
 
-The novel approach explored in this study involves generating context-specific survey responses using an LLM, which participants then select from. This method aims to reduce ambiguity in responses and ensure that qualitative coding is structured and efficient. Participants seemed to appreciate the clarity and structure provided by the LLM-generated options but expressed concerns regarding the lack of flexibility in capturing their full range of perspectives. Participant 2, for example, felt that there was potential for bias in the AI-generated options, as the system could present choices based on past behavior rather than a true reflection of current preferences. However, compared to the other paradigms, this method appears to have the advantage of reducing ambiguity and ensuring that qualitative coding is more efficient and accurate. It also allows for human judgment in the final selection, which may mitigate the risk of AI-driven biases.
+This approach used an LLM to generate privacy concerns and then label them using the same model. This approach significantly reduced response time, averaging 37 seconds for all scenarios. While the generated concerns were less personal and rooted in general beliefs, they were of reasonable quality. The labeling process was accurate and swift, with no notable omissions or mislabels. Overall, this paradigm demonstrated exceptional efficiency without compromising too much on quality.
 
 ### Comparison of Participant Reactions
 
-Across the four paradigms, participants showed a preference for models that offered a balance between human input and AI efficiency. In particular, the \textit{Human Responses + LLM Labeling} and \textit{LLM Responses + Human Labeling} paradigms seemed to offer the most promise, as they allowed for human nuance while maintaining the efficiency of AI-driven labeling or response generation. However, both paradigms were also critiqued for their ethical implications, with concerns about privacy and data collection remaining prominent.
+Participants across four paradigms favored models that struck a balance between human input and AI efficiency. The Human Responses + LLM Labeling and LLM Responses + Human Labeling paradigms stood out for their ability to combine human nuance with AI-driven efficiency. Despite their promise however, both paradigms faced ethical critiques, particularly regarding privacy and data collection concerns
 
 ### Result Summary
 
-In conclusion, the LLM Responses + LLM Labeling paradigm emerges as the most optimal approach when considering time efficiency and accuracy. This fully automated method significantly reduces the time required for qualitative coding, making it the most scalable and cost-effective option. Moreover, when evaluated against the Human Responses + Human Labeling paradigm considered the ground truth it demonstrated the highest accuracy in terms of precision and recall, outperforming hybrid approaches that incorporate human oversight. While concerns about interpretability and nuance remain, the results suggest that LLM- driven coding maintains a high degree of consistency, eliminating the subjectivity and in-consistency that often arise in human-coded datasets. Moving forward, we recommend further refinement of LLM-based labeling techniques to ensure they align closely with human judgment while leveraging the unparalleled speed and scalability that AI provides. This paradigm presents a compelling solution for large-scale qualitative research, where
-efficiency and accuracy are paramount.
+The LLM Responses + LLM Labeling paradigm emerges as the most optimal approach when considering time efficiency and accuracy. This fully automated method significantly reduces the time required for qualitative coding, making it the most scalable and cost-effective option. Moreover, when evaluated against the Human Responses + Human Labeling paradigm considered the ground truth it demonstrated the highest accuracy in terms of precision and recall, outperforming hybrid approaches that incorporate human oversight. While concerns about interpretability and nuance remain, the results suggest that LLM-driven coding maintains a high degree of consistency, eliminating the subjectivity and in-consistency that often arise in human-coded datasets. Moving forward, we recommend further refinement of LLM-based labeling techniques to ensure they align closely with human judgment while leveraging the unparalleled speed and scalability that AI provides. This paradigm presents a compelling solution for large-scale qualitative research, where efficiency and accuracy are paramount.
 
 ## Conclusion
 
 This project has laid the groundwork for a novel approach to qualitative coding, focusing on the specific challenge of capturing and analyzing user privacy preferences. By combining AI-driven generative surveys with structured response filtering, the system offers a scalable and efficient alternative to traditional methods, which are often labor-intensive and or lead to vague, general answers. The dynamic generative survey system, powered by survey-react-ui and ChatGPT, demonstrates the potential to improve the specificity and accuracy of qualitative coding while reducing manual effort.
 
 However, as an exploratory effort, this project is admittedly limited in its scope and lacks rigorous experimentation and user testing. Further research is essential to validate the effectiveness of this approach. Future studies should benchmark the system against traditional manual labeling of free-text responses and a modified approach using an LLM to label free-text responses. These comparisons will help determine the relative advantages and limitations of each method, providing a clearer understanding of how this novel approach can be refined and applied more broadly.
-
-Ultimately, this project highlights the potential of AI-driven tools to transform qualitative coding processes, particularly in the context of privacy research. By continuing to build on this foundation, future work can contribute to the development of more effective privacy policies and tools, fostering greater trust and alignment between users and organizations in the digital age.
 
 ## References
 

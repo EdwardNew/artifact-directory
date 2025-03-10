@@ -97,7 +97,7 @@ This approach involved a large language model (LLM) generating context-specific 
 
 #### Human Responses + LLM Labeling
 
-This approach integrates human free-response text with automated labeling by a large language model (LLM). Completing all three scenarios took an average of 14 minutes, reflecting the previous time of human generated responses. The quality of the responses was high, and the LLM performed well in labeling privacy concerns it had generated, with no notable mislabels or omissions. Additionally, the LLM's quick output significantly expedited the labeling process, enhancing efficiency.
+This approach integrated human free-response text with automated labeling by a large language model (LLM). Completing all three scenarios took an average of 14 minutes, reflecting the previous time of human generated responses. The quality of the responses was high, and the LLM performed well in labeling privacy concerns it had generated, with no notable mislabels or omissions. Additionally, the LLM's quick output significantly expedited the labeling process, enhancing efficiency.
 
 #### LLM Responses + LLM Labeling
 

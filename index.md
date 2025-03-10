@@ -7,8 +7,8 @@ description: "By: Edward New, David Yonemura, Adalina Ma; Mentored by Haojian Ji
 ### Project Link:
 
 -   [Github](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
--   [Report](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
--   [Poster](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
+-   [Report](https://github.com/EdwardNew/artifact-directory/blob/main/report.pdf)
+-   [Poster](https://github.com/EdwardNew/artifact-directory/blob/main/poster.pdf)
 -   [About](https://github.com/DataSmithLab/PrIDE-web/tree/survey)
 
 ## Introduction
@@ -50,25 +50,27 @@ We will explore these four paradigms through an informal study utilizing three p
 ### Labeling
 For labeling, we will be using the privacy concern labels found through the traditional human to human paradigm of qualitative coding from the paper "Lean Privacy Review: Collecting Users' Privacy Concerns of Data Practices at a Low Cost". The link to this paper is referenced below. Additionally, knowing the specifics of the label is not neccessary for understanding the results of our exploration; however, they can be viewed below if interested. 
 
-<details>
-  <summary>Lean Privacy Review Labels</summary>
-  <ul>
-    <li>Invasive monitoring</li>
-    <li>Violation of expectations/social norms</li>
-    <li>Lack of respect for autonomy</li>
-    <li>Lack of informed consent</li>
-    <li>Deceptive or misleading data practice</li>
-    <li>Lack of protection for vulnerable populations</li>
-    <li>Lack of an alternative choice</li>
-    <li>Insufficient data security</li>
-    <li>Insufficient anonymization</li>
-    <li>Too high potential risks</li>
-    <li>Bias or discrimination</li>
-    <li>Lack of trust for algorithms</li>
-    <li>Lack of control of personal data</li>
-    <li>A company profits from users' data but provides little value to the users (i.e., data commodification)</li>
-  </ul>
-</details>
+<div style="border: 1px solid black; padding: 10px; margin: 10px;">
+  <details>
+    <summary>Lean Privacy Review Labels</summary>
+    <ul>
+      <li>Invasive monitoring</li>
+      <li>Violation of expectations/social norms</li>
+      <li>Lack of respect for autonomy</li>
+      <li>Lack of informed consent</li>
+      <li>Deceptive or misleading data practice</li>
+      <li>Lack of protection for vulnerable populations</li>
+      <li>Lack of an alternative choice</li>
+      <li>Insufficient data security</li>
+      <li>Insufficient anonymization</li>
+      <li>Too high potential risks</li>
+      <li>Bias or discrimination</li>
+      <li>Lack of trust for algorithms</li>
+      <li>Lack of control of personal data</li>
+      <li>A company profits from users' data but provides little value to the users (i.e., data commodification)</li>
+    </ul>
+  </details>
+</div>
 
 ### Metrics of Evaluation
 To compare these paradigms, we chose survey reponse time and quality of response as metrics of evaluation. Both varaiables are crucial as we seek to improve the experience for both researchers and participants without jeopardizing result quality. Survey response time is clearly defined, but quality of response, specifically for LLMs, will be compared with human responses, and as long as the LLM gives human-like responses and reasoning, we can mark it as a good quality response. With these four paradigms and metrics, we generated a hypothesis of which paradigm would perform well in each metric. 
@@ -76,14 +78,10 @@ To compare these paradigms, we chose survey reponse time and quality of response
 ### Hypothesis
 ![Paradigms](/artifact-directory/docs/assets/Hypothesis.png)  
   
-Our hypothesis comes from our belief in the phrase "LLMs are good generators, humans are good differentiators", or in essence,  
-
-
-
+Our hypothesis comes from our belief in the phrase "LLMs are good generators, humans are good differentiators", or in essence, 
 
 ### Exploration Details
 The overarching theme for the privacy scenarios given to the participants for this preliminary study will be about checkout-free retail stores or stores that allow customers to walk out with their products without having to directly pay in store. 
-
 
 ## Results
 
@@ -127,4 +125,3 @@ Ultimately, this project highlights the potential of AI-driven tools to transfor
 ## References
 
 -   [Lean Privacy Review](https://www.haojianj.in/resource/pdf/LeanPrivacyReview.pdf)
--   [link2]()
